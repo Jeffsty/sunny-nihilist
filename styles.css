@@ -1,7 +1,28 @@
 body {
     background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 input {
-    background-color: rgb(74, 77, 92)
+    background-color: #8e8373;
+    border-radius: 8px;
+    border: 0px;
+    border-color: aqua;
+    font-size: larger;
+    padding: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+    text-align: left;
+}
+
+a:hover {
+    color: red;
+    text-transform: capitalize;
+    text-decoration: underline; 
 }
